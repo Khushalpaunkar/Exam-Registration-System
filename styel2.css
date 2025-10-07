@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f6fa;
+  min-height: 100vh;
+}
+
+.logo {
+  position:center;
+  height: 100%;
+  width:100% ;
+  border-bottom: 4px solid #760707;
+}
+.heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  margin-top: 10px;
+}
+
+.heading2 {
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.form {
+  width: 100%;
+  padding: 25px 40px;
+}
+
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+/* Submit button center */
+.submit-box {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  text-decoration: none;
+  padding: 12px 30px;
+  background: #007bff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}

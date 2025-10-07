@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Exam Registration Form</title>
+  <link rel="stylesheet" href="styel2.css">
+</head>
+<body>
+
+     <header>   
+      <img src="assent/JDname.jpg" class="logo"> 
+           <h1 class="heading">B.Tech Exam Registration</h1>
+           <h6 class="heading2">Fill in your details to register for upcoming examinations</h6>
+  </header>
+
+  <form class="form" action="#" method="post">
+
+    <div class="row">
+      <div class="input-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      </div>
+
+      <div class="input-group">
+        <label for="btid">BT ID</label>
+        <input type="text" id="btid" name="btid" placeholder="Enter your BT ID" required>
+      </div>
+    </div>
+
+    
+    <div class="row">
+      <div class="input-group">
+        <label for="email">College Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your college email" required>
+      </div>
+
+      <div class="input-group">
+        <label for="jdtech">JD TECH ID</label>
+        <input type="text" id="jdtech" name="jdtech" placeholder="Enter your JD TECH ID" required>
+      </div>
+    </div>
+
+    
+    <div class="row">
+      <div class="input-group">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+
+      <div class="input-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
+      </div>
+    </div>
+
+    
+    <div class="row">
+      <div class="input-group">
+        <label for="branch">Branch Name</label>
+        <input type="text" id="branch" name="branch" placeholder="Enter your branch name" required>
+      </div>
+
+      <div class="input-group">
+        <label for="year">Year of Study</label>
+        <input type="number" id="year" name="year" placeholder="Enter your year of study" min="1" max="4" required>
+      </div>
+    </div>
+
+    
+    <div class="row">
+      <div class="input-group">
+        <label for="section">Section</label>
+        <input type="text" id="section" name="section" placeholder="Enter your section" required>
+      </div>
+
+      <div class="input-group">
+        <label for="semester">Current Semester</label>
+        <input type="number" id="semester" name="semester" placeholder="Enter your current semester" min="1" max="12" required>
+      </div>
+    </div>
+
+    <div class="row single">
+      <div class="input-group">
+        <label for="rollno">Roll Number</label>
+        <input type="number" id="rollno" name="rollno" placeholder="Enter your roll number" required>
+      </div>
+    </div>
+
+    
+    <div class="submit-box">
+      <a href="index3.html"
+          type="submit" class="button"> REGISTER NOW 
+      </a>
+    </div>
+  </form>
+</body>
+</html>
